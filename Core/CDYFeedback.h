@@ -21,9 +21,11 @@
 @interface CDYFeedback : NSObject
 
 @property (nonatomic, copy) NSString *feedbackEmail;
+@property (nonatomic, copy) NSString *appStoreId;
 
 + (CDYFeedback *)sharedInstance;
 
 - (MFMailComposeViewController *)presentEmailComposerUsingController:(UIViewController *)controller;
+- (void)rateApp;
 
 @end

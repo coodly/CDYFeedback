@@ -87,4 +87,11 @@
     [controller dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)rateApp {
+    NSString *templateReviewURL = @"itms-apps://itunes.apple.com/app/idAPP_ID";
+
+    NSString *reviewURL = [templateReviewURL stringByReplacingOccurrencesOfString:@"APP_ID" withString:self.appStoreId];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:reviewURL]];
+}
+
 @end
