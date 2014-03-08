@@ -19,6 +19,7 @@
 		EA63B02F18CB0B560027AB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA63B01718CB0B560027AB4E /* UIKit.framework */; };
 		EA63B03718CB0B560027AB4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA63B03518CB0B560027AB4E /* InfoPlist.strings */; };
 		EA63B03918CB0B560027AB4E /* FeedbackSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63B03818CB0B560027AB4E /* FeedbackSampleTests.m */; };
+		EA63B04518CB0CB00027AB4E /* CDYFeedback.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		EA63B03418CB0B560027AB4E /* FeedbackSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeedbackSampleTests-Info.plist"; sourceTree = "<group>"; };
 		EA63B03618CB0B560027AB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA63B03818CB0B560027AB4E /* FeedbackSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackSampleTests.m; sourceTree = "<group>"; };
+		EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDYFeedback.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		EA63B00718CB0B560027AB4E = {
 			isa = PBXGroup;
 			children = (
+				EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */,
 				EA63B01918CB0B560027AB4E /* FeedbackSample */,
 				EA63B03218CB0B560027AB4E /* FeedbackSampleTests */,
 				EA63B01218CB0B560027AB4E /* Frameworks */,
@@ -221,6 +224,7 @@
 			files = (
 				EA63B01E18CB0B560027AB4E /* InfoPlist.strings in Resources */,
 				EA63B02618CB0B560027AB4E /* Images.xcassets in Resources */,
+				EA63B04518CB0CB00027AB4E /* CDYFeedback.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				EA63B03E18CB0B560027AB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA63B03F18CB0B560027AB4E /* Build configuration list for PBXNativeTarget "FeedbackSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				EA63B04118CB0B560027AB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
