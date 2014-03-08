@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.subspec 'Core' do |ss|
     ss.platform = :ios, '7.0'
     ss.source_files = 'Core/*.{h,m}'
+    ss.framework = 'MessageUI'
   end
 end

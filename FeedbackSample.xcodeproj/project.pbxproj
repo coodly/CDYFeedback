@@ -20,6 +20,7 @@
 		EA63B03718CB0B560027AB4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA63B03518CB0B560027AB4E /* InfoPlist.strings */; };
 		EA63B03918CB0B560027AB4E /* FeedbackSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63B03818CB0B560027AB4E /* FeedbackSampleTests.m */; };
 		EA63B04518CB0CB00027AB4E /* CDYFeedback.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */; };
+		EA63B04918CB0D950027AB4E /* CDYFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63B04818CB0D950027AB4E /* CDYFeedback.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		EA63B03618CB0B560027AB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA63B03818CB0B560027AB4E /* FeedbackSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackSampleTests.m; sourceTree = "<group>"; };
 		EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDYFeedback.podspec; sourceTree = "<group>"; };
+		EA63B04718CB0D950027AB4E /* CDYFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYFeedback.h; sourceTree = "<group>"; };
+		EA63B04818CB0D950027AB4E /* CDYFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYFeedback.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		EA63B00718CB0B560027AB4E = {
 			isa = PBXGroup;
 			children = (
+				EA63B04618CB0D850027AB4E /* Core */,
 				EA63B04418CB0CB00027AB4E /* CDYFeedback.podspec */,
 				EA63B01918CB0B560027AB4E /* FeedbackSample */,
 				EA63B03218CB0B560027AB4E /* FeedbackSampleTests */,
@@ -145,6 +149,15 @@
 				EA63B03518CB0B560027AB4E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA63B04618CB0D850027AB4E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA63B04718CB0D950027AB4E /* CDYFeedback.h */,
+				EA63B04818CB0D950027AB4E /* CDYFeedback.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +258,7 @@
 			files = (
 				EA63B02418CB0B560027AB4E /* AppDelegate.m in Sources */,
 				EA63B02018CB0B560027AB4E /* main.m in Sources */,
+				EA63B04918CB0D950027AB4E /* CDYFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
